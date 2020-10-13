@@ -14,5 +14,9 @@ before_script:
   - docker run -d -p 8000:8000 --workdir=/app -v $PWD:/app devopschallenge serve
 
 script:
-  - curl http://localhost:8000
+  #- curl http://localhost:8000
+  - docker ps -a
+  - cat /etc/hosts
+  - env
+  - curl http://127.0.0.1:8000
     #- docker ps
