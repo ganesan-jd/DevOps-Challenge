@@ -16,10 +16,8 @@ then
 	tar -zxvf newproject.tar.gz
 	cd newproject
 	echo $PWD
-	mkdocs $PARAM1 
+	mkdocs $PARAM1 --dev-addr=0.0.0.0:8000
 else
 	echo "Enter either produce or serve"
 	echo `mkdocs --version`
-	echo `python -V`
-	echo ""
 fi
