@@ -9,4 +9,6 @@ RUN pip install mkdocs
 COPY ./mkdockerize.sh /
 RUN chmod 755 /mkdockerize.sh 
 
+EXPOSE 8000
+
 ENTRYPOINT ["/mkdockerize.sh"]
