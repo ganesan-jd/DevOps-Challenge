@@ -13,7 +13,8 @@ then
 elif [ $PARAM1 = "serve" ];
 then
 	printf "Entry Point is below\n"
-	tar -zxvf newproject.tar.gz
+	#tar -zxvf newproject.tar.gz
+	mkdocs new newproject
 	cd newproject
 	echo $PWD
 	mkdocs $PARAM1 --dev-addr=0.0.0.0:8000 

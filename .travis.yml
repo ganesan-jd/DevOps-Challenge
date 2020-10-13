@@ -10,7 +10,7 @@ install:
   - docker build -t devopschallenge .
 
 before_script:
-  - docker run --workdir=/app -v $PWD/:/app devopschallenge produce
+  #- docker run --workdir=/app -v $PWD/:/app devopschallenge produce
   - docker run -d -p 8000:8000 --workdir=/app -v $PWD:/app devopschallenge serve
 
 script:
