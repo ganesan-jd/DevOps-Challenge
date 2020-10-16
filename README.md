@@ -1,5 +1,6 @@
 [![BuildStatus](https://travis-ci.com/ganesan-jd/DevOps-Challenge.svg?branch=main)](https://travis-ci.com/ganesan-jd/DevOps-Challenge)
 <img alt="Lines of code" src="https://img.shields.io/tokei/lines/github/ganesan-jd/DevOps-Challenge">
+<img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/ganesan-jd/DevOps-Challenge">
 
 docker build -t devopschallenge .
 
